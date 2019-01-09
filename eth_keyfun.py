@@ -126,7 +126,7 @@ if __name__ == '__main__':
 
     if args.mode == 0:
         if args.eth_address == None:
-            print(Fore.RED + "Error: Please specify ethereum public address with -x that you want to bruteforce!")
+            print(Fore.RED + "Error: Please specify ethereum public address with -x that you want to bruteforce! or use -h to display help")
         else:
             x.linear_brute(args.eth_address)
             if args.check_balance:
