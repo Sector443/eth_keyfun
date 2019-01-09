@@ -5,9 +5,9 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="eth_keyfun",
-    version="1.0",
+    version="1.1",
     author="Chirag Jariwala(CJHackerz)",
-    author_email="chirag_a@srmuniv.edu.in",
+    author_email="cjhackerz443@protonmail.com",
     description="A small tool to bruteforce weak ethereum private keys and more",
     long_description=long_description,
     long_description_content_type="text/markdown",
